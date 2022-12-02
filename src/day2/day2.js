@@ -32,7 +32,7 @@ const main = async function() {
     input.forEach((round) => {
         total1 += scoreMapper1[round]
         total2 += scoreMapper2[round]
-    }, 0)
+    })
 
     console.log(total1)
     console.log(total2)
